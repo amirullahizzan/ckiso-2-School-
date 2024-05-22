@@ -1,0 +1,9 @@
+Numbers will be printed : 15 times
+60 31 
+88 35 
+71 96 
+39 61 
+33 27 
+48 54 
+11 53 
+47 

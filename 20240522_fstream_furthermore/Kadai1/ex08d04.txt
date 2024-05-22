@@ -1,0 +1,10 @@
+water 5
+everyday  9
+lesson  7
+player 6
+service  8
+store  6
+fantasy  8
+summer 6
+snow  5
+counter  8
