@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{2867efab-ec90-4d02-8974-455b20d4f830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{5395bf93-195d-47d7-9691-24b782bc06e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game\Class">
+      <UniqueIdentifier>{a8228be2-f04d-46a7-b670-7e8116531885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{e97729e4-f000-48c1-8756-622807cbf77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{440a174a-6d42-464a-8870-91a9cc32f042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Class">
+      <UniqueIdentifier>{80e9f7f8-28c0-4a78-bade-ecc0236bc41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Imput">
+      <UniqueIdentifier>{36f216df-24de-4dae-8d04-cd14dd159818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Input">
+      <UniqueIdentifier>{6850a849-f45d-466f-b171-539b2928b7ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>ソース ファイル\Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputKey.cpp">
+      <Filter>ソース ファイル\System\Imput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputMouse.cpp">
+      <Filter>ソース ファイル\System\Imput</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\InputPad.cpp">
+      <Filter>ソース ファイル\System\Imput</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Image.cpp">
+      <Filter>ソース ファイル\Game\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Camera.h">
+      <Filter>ヘッダー ファイル\Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinMain.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InputKey.h">
+      <Filter>ヘッダー ファイル\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InputMouse.h">
+      <Filter>ヘッダー ファイル\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\InputPad.h">
+      <Filter>ヘッダー ファイル\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\typedef.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Image.h">
+      <Filter>ヘッダー ファイル\Game\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
